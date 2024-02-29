@@ -50,7 +50,10 @@ function Comparison(){
        alert('you loose scissors beat paper')
     }else if(choiceuser=='rock' && choice=='paper'){
       alert('you loose paper beats rock')
-    }else {alert('please enter a propper value!')}
+    } else if(choiceuser==choice){
+        alert('Tie! no one wins.')
+    }
+    else {alert('please enter a propper value!')}
    }
 function Gameplay(){
     
