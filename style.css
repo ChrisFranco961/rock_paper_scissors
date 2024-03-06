@@ -1,0 +1,81 @@
+*{
+    height: 100%;
+    width : auto;
+  }
+  #container{display: flex;
+    flex-direction: column;
+    background-color: black
+    
+  }
+  h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    border: 5px solid blue;
+    font-weight: bolder;
+  }
+  .buttonschoice{
+    display: flex;
+    justify-content: center;
+  }
+  #rock{
+    width: 100px;
+    height: 100px;
+    font-weight: bolder;
+    background-color: red;
+    border-radius: 20%;
+  }
+  #paper{background-color: blue;
+    font-weight: bolder;
+    width: 100px;
+    height: 100px;
+    border-radius: 20%;
+  }
+  #scissors{background-color: yellowgreen;
+    font-weight: bolder;
+    width: 100px;
+    height: 100px;
+    border-radius: 20%;
+  }
+  .scores{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+  }
+  #leftuser{
+    margin-left: 20px;
+    height: fit-content;
+    width: fit-content;
+    background-color:blue;
+    font-size: 100px
+  }
+  #rightcomputer{
+    margin-right: 20px;
+    width: fit-content;
+    height: fit-content;
+    background-color:red;
+    font-size: 100px;
+  }
+  .computerchoicecontainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  #computerchoice{
+    height: fit-content;
+    color: red;
+    font-size: 40px;
+  }
+  #computerhand{
+    
+    height: fit-content;
+    width: fit-content;
+    font-size: 80px;
+    color: red;
+    font-weight: bolder;
+  }
+  
