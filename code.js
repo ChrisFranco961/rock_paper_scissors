@@ -36,7 +36,7 @@ function computerchoice(){
 }
 function comparisonpaper(computernumber){
     if(computernumber==2){
-        document.getElementById('computerhand').innerHTML=Scissors
+        document.getElementById('computerhand').innerHTML='Scissors'
     ++document.getElementById('rightcomputer').innerHTML
     playfart();
 }else if(computernumber==0){
